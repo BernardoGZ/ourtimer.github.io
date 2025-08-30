@@ -1,4 +1,4 @@
-const targetDate = new Date('October 24, 2024 00:00:00').getTime();
+const targetDate = new Date('December 6, 2025 19:00:00').getTime();
 
 const quotes = [
     "Love is composed of a single soul inhabiting two bodies. - Aristotle",
