@@ -1,27 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to top left, #fff5f5, #ffeaea);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    color: #5c3d3d;
 }
 
 .container {
-    text-align: center;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 600px;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #cc4e5c;
 }
 
 #countdown {
-    font-size: 2em;
-    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ff6f61;
+    margin-bottom: 1.5rem;
 }
 
 #quote {
-    font-size: 1.2em;
-    color: #555;
+    font-size: 1.1rem;
+    color: #7a5c5c;
+    font-style: italic;
+    transition: opacity 0.5s ease;
+    min-height: 3.5rem;
+}
+
+.heart {
+    font-size: 2rem;
+    color: #e25555;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
 }
